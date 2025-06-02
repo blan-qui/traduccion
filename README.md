@@ -13,17 +13,17 @@ Este proyecto implementa un analizador sintáctico LL(1) y un traductor dirigido
 Para compilar manualmente desde la terminal:
 
 --bash
-gcc lexer.c parser.c -o parser.exe
-gcc lexer.c traductor.c -o traductor.exe
+- gcc lexer.c parser.c -o parser.exe
+- gcc lexer.c traductor.c -o traductor.exe
 ## Ejecución
 --bash
-parser.exe       # Verifica la validez sintáctica del JSON
-traductor.exe    # Genera un archivo traducido.xml con la representación XML
+- parser.exe       # Verifica la validez sintáctica del JSON
+- traductor.exe    # Genera un archivo traducido.xml con la representación XML
 
 ## Compilación en Linux (con GCC)
-gcc lexer.c parser.c -o parser
-gcc lexer.c traductor.c -o traductor
+- gcc lexer.c parser.c -o parser
+- gcc lexer.c traductor.c -o traductor
 --EJecución en linux
-./parser
-./traductor
+- ./parser
+- ./traductor
 
