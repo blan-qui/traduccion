@@ -16,15 +16,14 @@ Para compilar manualmente desde la terminal:
 gcc lexer.c parser.c -o parser.exe
 gcc lexer.c traductor.c -o traductor.exe
 ## Ejecución
-bash
+--bash
 parser.exe       # Verifica la validez sintáctica del JSON
 traductor.exe    # Genera un archivo traducido.xml con la representación XML
-```
+
 ## Compilación en Linux (con GCC)
 gcc lexer.c parser.c -o parser
 gcc lexer.c traductor.c -o traductor
-
-##EJecución en linux
+--EJecución en linux
 ./parser
 ./traductor
 
