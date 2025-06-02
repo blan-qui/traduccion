@@ -15,6 +15,8 @@ Para compilar manualmente desde la terminal:
 --bash
 - gcc lexer.c parser.c -o parser.exe
 - gcc lexer.c traductor.c -o traductor.exe
+
+
 --Ejecución
 --bash
 - parser.exe       # Verifica la validez sintáctica del JSON
